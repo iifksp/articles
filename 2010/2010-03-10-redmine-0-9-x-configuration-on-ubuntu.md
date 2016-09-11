@@ -2,7 +2,7 @@
 
 项目管理系统redmine对我来说，有一种特别的感情。它使我去接触了ROR，使我重新认识了ubuntu，并且也是它，让我得到了第一份工作。值此3月，距redmine-0.8.4发布已经过去了10个月，现在的最新稳定版已经更新到了0.9.3，并且rails的版本也已升至2.3.5，而且发布了3.0 beta。虽然ruby的黄金时期已经过去了几个年头，但是它的发展势头还是不减。
 
-![](/content/images/2013/Dec/redmine_header_en.gif)
+![](https://swordair.com/content/images/2013/Dec/redmine_header_en.gif)
 
 于是当初我写的关于[redmine-0.8.x配置文档](http://swordair.com/redmine-basic-configuration-on-ubuntu/)已经略显过时了。
 

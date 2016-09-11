@@ -1,6 +1,6 @@
 # 那些CSS的细节问题(4) —— 圆角边框和outline
 
-能写文章，说明时间略有空余，这应该算好事吧～看了下草稿箱，果断还是选这篇先写完，因为和前面的几篇有关联。在之前的 [圆角响应区](/details-in-css-part-2-rounded-response-area/) 以及 [圆角边框和overflow](/details-in-css-part-3-rounded-corners-and-overflow/) 中，已经讨论过圆角边框的一些问题，本篇如题，是关于圆角边框和 `outline` 的，这里也正好回答了一丝在[圆角响应区](/details-in-css-part-2-rounded-response-area/)里提出的“为什么不在做DEMO的时候用 `outline` 描画边缘？”的问题。在写那篇之前做DEMO的时候，我是用了 `outline` 的，但注意到 `outline` 的一些问题之后，又把它从DEMO里移除了，并起草了这篇文章的标题，然后，一放就是3个月之久...
+能写文章，说明时间略有空余，这应该算好事吧～看了下草稿箱，果断还是选这篇先写完，因为和前面的几篇有关联。在之前的 [圆角响应区](https://swordair.com/details-in-css-part-2-rounded-response-area/) 以及 [圆角边框和overflow](https://swordair.com/details-in-css-part-3-rounded-corners-and-overflow/) 中，已经讨论过圆角边框的一些问题，本篇如题，是关于圆角边框和 `outline` 的，这里也正好回答了一丝在[圆角响应区](https://swordair.com/details-in-css-part-2-rounded-response-area/)里提出的“为什么不在做DEMO的时候用 `outline` 描画边缘？”的问题。在写那篇之前做DEMO的时候，我是用了 `outline` 的，但注意到 `outline` 的一些问题之后，又把它从DEMO里移除了，并起草了这篇文章的标题，然后，一放就是3个月之久...
 
 进入正题，**如果同时使用圆角边框 `border-radius` 以及 `outline` ，那么 `outline` 的形状应该是怎么样的？也该是圆角吗？**
 

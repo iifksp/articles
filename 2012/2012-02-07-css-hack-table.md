@@ -1,6 +1,6 @@
 # CSS Hack Table
 
-早在之前的[告别垂死的IE6与IE7](/goodbye-to-dying-ie6-and-ie7/)里，我就提及了要送别IE6/7，不过和说好的时间相差的挺多，出于各种原因，一拖就是1个多月。好在还是东拼西凑地搞完了，赶在了今年情人节前发布。时间上的仓促可能导致我文中的某些胡言乱语，希望各位看客多包涵了:)
+早在之前的[告别垂死的IE6与IE7](https://swordair.com/goodbye-to-dying-ie6-and-ie7/)里，我就提及了要送别IE6/7，不过和说好的时间相差的挺多，出于各种原因，一拖就是1个多月。好在还是东拼西凑地搞完了，赶在了今年情人节前发布。时间上的仓促可能导致我文中的某些胡言乱语，希望各位看客多包涵了:)
 
 ![css hack table](https://swordair.com/content/images/2013/Dec/css_hack_table.png)
 

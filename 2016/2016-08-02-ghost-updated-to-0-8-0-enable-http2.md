@@ -4,9 +4,9 @@
 
 Ghost在0.8.0之后不久便更新了新版本0.9.0，本来想等HTTP2一起弄，不过这段时间阿里云还是迟迟不上Ubuntu 16.04 LTS，实在有些等不及，所以还是决定直接从14.04升级到16.04。因为早些年吃过很多更新系统的亏，所以一直对系统核心升级颇为不喜。好在这次比较顺利，更新到16.04之后，获得了OpenSSL 1.0.2g也就具备了启用HTTP/2的条件，所以顺带也将Ghost更新到最新版本。
 
-续[简述HTTP/2的特性及其对前端的影响](/http2-features-and-implications-for-front-end-develop/)一文的部署部分，系统更新参阅[How To Upgrade to Ubuntu 16.04 LTS](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts)，之后卸载之前安装的Nginx后重新安装，新的Nginx包会使用OpenSSL 1.0.2g对ALPN提供支持。用Chrome的调试工具调出协议一栏就能验证协议已经由http 1.1变成h2:
+续[简述HTTP/2的特性及其对前端的影响](https://swordair.com/http2-features-and-implications-for-front-end-develop/)一文的部署部分，系统更新参阅[How To Upgrade to Ubuntu 16.04 LTS](https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-16-04-lts)，之后卸载之前安装的Nginx后重新安装，新的Nginx包会使用OpenSSL 1.0.2g对ALPN提供支持。用Chrome的调试工具调出协议一栏就能验证协议已经由http 1.1变成h2:
 
-![](/content/images/2016/08/http2-protocol-in-chrome.png)
+![](https://swordair.com/content/images/2016/08/http2-protocol-in-chrome.png)
 
 之后更新Ghost，阿里云依旧虐心，好依赖几个文件死活下不来，半小时后放弃。于是还是老样子再开个Linode过渡一下node_modules，只用了2分钟...
 

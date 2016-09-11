@@ -57,7 +57,7 @@ DNS的解析成本是相当高昂的，对于多域名资源的网站来说这�
 
 由于标准里很多逻辑并非强制而是以建议的形式，所以个个浏览器处理逻辑不同并不奇怪。这里仅以Chrome为例说明prerender。当一个页面存在prerender时，可以通过查看chrome浏览器的任务管理器获知，所有与prerender的页面都会以前缀prerender的形式显示：
 
-![chrome preredener](/content/images/2016/02/chrome-preredener.png)
+![chrome preredener](https://swordair.com/content/images/2016/02/chrome-preredener.png)
 
 页面同时指定多个prerender，浏览器也仅会执行第一个。prerender初始被引入chrome时是有有效期的，维持30秒没有被使用的话会被丢弃，但当前的版本在资源充分的情况下并不会这么做。但是当页面跳出后，如果目标不是这个预渲染的页面，那么这个后台预先渲染好的页面还是会被丢弃。如果跳转到目标页就是这个已经渲染的页面，那么你将会看到这个页面瞬间就会切换到你的面前，就仿佛在切换chrome tab一样。
 

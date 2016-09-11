@@ -221,7 +221,7 @@ em似乎比百分数更加直观，而且对于一个字体的宽度的把握往
 
 下面这张图，更加直观些。但是注意第二行。同样对于English Font加上larger，IE8和FF渲染为18px，Opera、Chrome和Safari则渲染为19px。
 
-![font size compare](/content/images/2013/Dec/font_size_compare.png)
+![font size compare](https://swordair.com/content/images/2013/Dec/font_size_compare.png)
 
 下面的表截取自[Toward a standard font size interval system](http://style.cleverchimp.com/font_size_intervals/altintervals.html)里的Synoptic table，对应于windows常用的96dpi的情况。是的，96dpi，我们几乎从来不去改变这个默认的值，除非也许某个人因为高分屏字太小的折磨，而主动调大到了120dpi。
 

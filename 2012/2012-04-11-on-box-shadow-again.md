@@ -1,6 +1,6 @@
 # 再谈box-shadow
 
-早先，我详细地写过2篇关于 `box-shadow` 的文章: [CSS3 box-shadow 详解(1)](/details-on-css3-box-shadow-part-1/) 以及 [CSS3 box-shadow 详解(2)](/details-on-css3-box-shadow-part-2/)。但用现在的眼光来看，内容已经有些旧了。趁着这片闲言碎语，对 `box-shadow` 再做一些补充。
+早先，我详细地写过2篇关于 `box-shadow` 的文章: [CSS3 box-shadow 详解(1)](https://swordair.com/details-on-css3-box-shadow-part-1/) 以及 [CSS3 box-shadow 详解(2)](https://swordair.com/details-on-css3-box-shadow-part-2/)。但用现在的眼光来看，内容已经有些旧了。趁着这片闲言碎语，对 `box-shadow` 再做一些补充。
 
 `box-shadow` 是我最喜欢的CSS3特性之一，它能创建凸显层次的阴影，但却还可以充当很多角色：边框/层叠/渐变/勾线，等等。当前浏览器的支持程度已经非常理想，除了IE8及以下，所有浏览器都已经更新到无前缀的支持——这跟一年前的情况很不同，那时，一些浏览器如firefox实现的 `box-shadow` 还存在占用空间的bug，Webkit类的模糊算法非常僵硬，随着这一年的发展这一些问题都已被克服。如今存在的问题只有两个，**部分移动版浏览器的不支持**，以及**Opera在多阴影高模糊值时的效率低下**。但相信这些问题也都能尽早解决。
 

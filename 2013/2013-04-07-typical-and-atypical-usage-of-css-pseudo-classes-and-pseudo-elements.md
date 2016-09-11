@@ -89,7 +89,7 @@ body:before{content:"";position:fixed;top:-15px;left:0;width:100%;height:15px;bo
 
 ### CSS调试
 
-之前写的[调试样式：debug.css](/debugging-style-debug-css/)，部分内容是有关 `:empty` 伪类的应用。
+之前写的[调试样式：debug.css](https://swordair.com/debugging-style-debug-css/)，部分内容是有关 `:empty` 伪类的应用。
 ```
 div:empty,
 span:empty,

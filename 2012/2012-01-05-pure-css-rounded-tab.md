@@ -33,6 +33,6 @@ Tab能算的上是网页里最为常见的组件，不论是作为内容切换�
 }
 ```
 
-那就是 `content:"\200B";`。其实之前的 [再谈清除浮动](/on-clearing-float-again/) 里也已经提到，这个 `U+200B` 字符是一个“零宽度空白”，其本身就不可见，所以也就不需要在使用 `visibility:hidden;` 来隐藏内容。
+那就是 `content:"\200B";`。其实之前的 [再谈清除浮动](https://swordair.com/on-clearing-float-again/) 里也已经提到，这个 `U+200B` 字符是一个“零宽度空白”，其本身就不可见，所以也就不需要在使用 `visibility:hidden;` 来隐藏内容。
 
 **2012/01/10更新**：非常巧合的，css-tricks的Chris Coyier在几天后也发了一篇关于圆角tab的文章 [(Better) Tabs with Round Out Borders](http://css-tricks.com/better-tabs-with-round-out-borders/)。对于Chris Coyier大神的圆角我只能说，“用阴影而不是伪元素来盖住直角多余的部分”这真太有创意了！他的实现使用了2个伪元素和box-shadow，而我用了3个伪元素，但没有使用box-shadow。讽刺的是，在IE67下轻微错位的我实现方式，可能更适应国情...

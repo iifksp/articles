@@ -4,7 +4,7 @@
 
 ~~阅读本文请使用chrome，Opera或者FireFox浏览~~(23 December 2013: 由于迁移到ghost，其早期版本对HTML的支持不够理想，所以迁移过程中将所有HTML例子切成了图片)
 
-在上一篇的[CSS3 box-shadow 详解(1)](/details-on-css3-box-shadow-part-1/)里，我从标准的角度出发，详细地写到了box-shadow的标准的方方面面。但毕竟是游戏规则似的细节，读起来恐怕还是没什么味道，按照上次的安排，这篇里不再牵扯标准的任何细节性的东西，主要就是讲实际应用中，box-shadow能做些什么。
+在上一篇的[CSS3 box-shadow 详解(1)](https://swordair.com/details-on-css3-box-shadow-part-1/)里，我从标准的角度出发，详细地写到了box-shadow的标准的方方面面。但毕竟是游戏规则似的细节，读起来恐怕还是没什么味道，按照上次的安排，这篇里不再牵扯标准的任何细节性的东西，主要就是讲实际应用中，box-shadow能做些什么。
 
 ## 设计中的阴影
 

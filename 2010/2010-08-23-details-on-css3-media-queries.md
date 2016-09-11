@@ -1,6 +1,6 @@
 # CSS3 Media Queries 详解
 
-说起CSS3的新特性，就不得不提到 Media Queries 。最近 Max Design 更新的一个[泛读列表](http://www.maxdesign.com.au/2010/08/20/some-links-293/)里，赫然就有关于 Media Queries 的文章。同时位列其中的也有前天我刚刚翻译的 [IE9, Opacity 和 Alpha](/ie9-opacity-and-alpha-translation/) 。
+说起CSS3的新特性，就不得不提到 Media Queries 。最近 Max Design 更新的一个[泛读列表](http://www.maxdesign.com.au/2010/08/20/some-links-293/)里，赫然就有关于 Media Queries 的文章。同时位列其中的也有前天我刚刚翻译的 [IE9, Opacity 和 Alpha](https://swordair.com/ie9-opacity-and-alpha-translation/) 。
 
 虽然标题相同，但本文并不是列表上 [CSS3 Media Queries](http://www.webdesignerwall.com/tutorials/css3-media-queries/) 的译文，因为原版有Demo有例子有图片，全文不长而且不难看懂，所以我也就不翻译了。基于自己已经了解到一定程度，所以就打算自己写。
 

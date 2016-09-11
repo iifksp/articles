@@ -4,7 +4,7 @@
 
 前段时间看到一篇《9个你现在可以使用的CSS3属性( [9 CSS3 Properties You Can Use Now](http://www.elliotswan.com/2009/07/27/9-css3-properties-you-can-use-now/))》，描述了当前可以渐进使用的CSS3的新的属性。但实际上由于种种原因，当前能使用的其实远达不到9个这么多。
 
-本文讨论的就是其中之一，box-shadow，而且是从比较细节的角度。既然是详解就必然要写的详尽，于是，写到一半的时候才发觉内容太多，所以就分成了2个章节。这个章节里讨论box-shadow标准的描述，所以你能知道一些**非常细节的东西**，当然这些东西都没法使用，所以**如果你只是想了解怎么使用box-shadow，请跳过这一章**，直接阅读我写的《[CSS3 box-shadow 详解(2)](/details-on-css3-box-shadow-part-2/)》，那里我会写记录些常用的或者是有趣的使用方法。
+本文讨论的就是其中之一，box-shadow，而且是从比较细节的角度。既然是详解就必然要写的详尽，于是，写到一半的时候才发觉内容太多，所以就分成了2个章节。这个章节里讨论box-shadow标准的描述，所以你能知道一些**非常细节的东西**，当然这些东西都没法使用，所以**如果你只是想了解怎么使用box-shadow，请跳过这一章**，直接阅读我写的《[CSS3 box-shadow 详解(2)](https://swordair.com/details-on-css3-box-shadow-part-2/)》，那里我会写记录些常用的或者是有趣的使用方法。
 
 和往常一样，我先是查找了国内已经有人写过的内容避免自己写的和他们的有所冲突。和我之前写 [CSS3 Media Query](details-on-css3-media-queries) 时的没有多少好文的情况不同，关于box-shadow已经涌现出了很大的一批内容，所以后面的描述中我将援引他们。
 
@@ -93,7 +93,7 @@ box-shadow: 5px 5px;
 
 ![box shadow example 2](https://swordair.com/content/images/2013/Dec/box_shadow_example_2.png)
 
-关于box-shadow，当前就先讨论这么多。还有一些关于标准的东西尚比较零散，等我重新组织后再更新此文。然后下一篇《[CSS3 box-shadow 详解(2)](/details-on-css3-box-shadow-part-2/)》我会详细讲述其应用。
+关于box-shadow，当前就先讨论这么多。还有一些关于标准的东西尚比较零散，等我重新组织后再更新此文。然后下一篇《[CSS3 box-shadow 详解(2)](https://swordair.com/details-on-css3-box-shadow-part-2/)》我会详细讲述其应用。
 
 
 
